@@ -138,4 +138,7 @@ spec:
     app: mysql
 ```
 
-5、暴露23306端口到k8s外部。
+5、部署
+```
+  kubectl apply -f mysql.yaml
+```
